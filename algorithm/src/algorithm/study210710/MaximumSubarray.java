@@ -11,6 +11,7 @@ public class MaximumSubarray {
             maxSumPair = Math.max(nums[idx]+maxSumPair,nums[idx]);
             max = Math.max(max,maxSumPair);
         }
+        
         return max;
     }
 	
