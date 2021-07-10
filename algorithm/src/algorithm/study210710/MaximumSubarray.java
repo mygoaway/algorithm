@@ -6,7 +6,6 @@ public class MaximumSubarray {
 		
 		int maxSumPair = nums[0];
         int max = nums[0];
-        
         for(int idx =1;idx <nums.length;idx++){
             maxSumPair = Math.max(nums[idx]+maxSumPair,nums[idx]);
             max = Math.max(max,maxSumPair);
