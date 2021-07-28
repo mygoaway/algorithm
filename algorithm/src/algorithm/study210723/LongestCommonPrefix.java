@@ -6,7 +6,6 @@ public class LongestCommonPrefix {
     public String longestCommonPrefix(String[] strs) {
         int minSize = 100;
         int idx = -1;
-        
         for(int i = 0; i < strs.length; i++){
             if(strs[i].length() < minSize){
             	minSize = strs[i].length();
