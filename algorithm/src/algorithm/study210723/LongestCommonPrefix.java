@@ -12,6 +12,7 @@ public class LongestCommonPrefix {
                 idx = i;
             }
         }
+        
         String s = strs[idx];
         
         for(int j = 0; j < minSize; j++){
