@@ -15,6 +15,7 @@ public class MajorityElement {
 	    		}
 	    	}
     	}
+    	
     	return majority;
     }
 
