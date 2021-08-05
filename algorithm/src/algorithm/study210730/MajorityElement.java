@@ -7,6 +7,7 @@ public class MajorityElement {
     	for(int i=1;i<nums.length;i++){
 	    	if(majority == nums[i]){
 	    		counter ++;
+	    		
 	    	} else {
 	    		counter --;
 	    		if(counter == 0){
