@@ -15,7 +15,6 @@ public class ReverserInteger {
             return i;
         }
     
-    
     public static void main(String[] args) {
     	ReverserInteger ts = new ReverserInteger();
     	int result = ts.removeElement(new int[] {2,7,11,15}, 2);
