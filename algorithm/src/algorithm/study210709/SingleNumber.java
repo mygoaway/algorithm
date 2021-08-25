@@ -7,7 +7,6 @@ public class SingleNumber {
 	
 	public int singleNumber(int[] nums) {
 	    List<Integer> list = new ArrayList<>();
-
 	    for (int i : nums) {
 	      if (!list.contains(i)) {
 	        list.add(i);
