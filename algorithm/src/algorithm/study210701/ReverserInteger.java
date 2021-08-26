@@ -11,7 +11,6 @@ public class ReverserInteger {
                     i++;
                 }
             }
-            
             return i;
         }
     
